@@ -1,0 +1,25 @@
+
+
+TOKEN ID
+a0a475ed56af44a7a022d2c44b0a049ddddfb9703221ebae75d96437932cb9fe
+TOKEN SECRET
+ddbc0bf79eee127d9a9cdcd10a3e267bd99b12f151fa585cdda1a10c20368377
+
+CONSUMER KEY / CLIENT ID
+7e6ef53df77dbb7da0d7a8faeec43e3da39e3c483f94c460902480decbad1562
+CONSUMER SECRET / CLIENT SECRET
+33f0533b76768dc2a718b53fd1802f7ad10243a3945e4a5b470df01288cb7802
+
+
+
+
+git config --global user.email "william.dubberley@sesamesoftware.com"
+  git config --global user.name "williamdubberley"
+
+
+
+
+
+SELECT id,actualshipdate,allocationalert,amountlinked,billeddate,billingschedule,billvariancestatus,blandedcost,category,class,cleared,cleareddate,commitinventory,commitmentfirm,costestimate,costestimaterate,costestimatetype,createdfrom,createdpo,creditforeignamount,debitforeignamount,department,documentnumber,donotdisplayline,dropship,entity,estgrossprofit,estgrossprofitpercent,estimatedamount,expectedreceiptdate,expectedshipdate,expenseaccount,expensedate,foreignamount,foreignamountpaid,foreignamountunpaid,foreignpaymentamountunused,foreignpaymentamountused,fulfillable,hasfulfillableitems,inventorylocation,inventoryreportinglocation,inventorysubsidiary,isbillable,isclosed,iscogs,isfullyshipped,isfxvariance,isinventoryaffecting,item,itemtype,kitcomponent,kitmemberof,landedcostcategory,landedcostperline,linelastmodifieddate,linesequencenumber,location,mainline,matchbilltoreceipt,memo,netamount,oldcommitmentfirm,oldexpectedshipdate,orderpriority,paymentmethod,price,processedbyrevcommit,quantity,quantityallocated,quantitybackordered,quantitybilled,quantitycommitted,quantitydemandallocated,quantitypicked,quantityrejected,quantityshiprecv,rate,requestnote,specialorder,subsidiary,taxline,transaction,transactiondiscount,transactionlinetype,transferorderitemlineid,uniquekey,units,vsoeisestimate FROM transactionline where uniqueKey<4000000
+max (uniqueKey)  Count(*)
+98,314,764          4,715,013

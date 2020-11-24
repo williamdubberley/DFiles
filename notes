@@ -1,0 +1,64 @@
+
+ssh-keygen -b 2048 -t rsa
+ cat ~/.ssh/id_rsa.pub
+
+
+
+
+
+TOKEN ID
+bda9468062f508997f10ad12c23d3f35347d7e1dad587f36bc86517e8e2ff331
+TOKEN SECRET
+434e97a6b826560bbd118a50c49ca395f3bcc6d8b040b08fa08cebc433ed2c94
+
+CONSUMER KEY / CLIENT ID
+283f504a4268c3446a452cd481a00433c687faf05dcb77d1831d3c95b4e6427a
+CONSUMER SECRET / CLIENT SECRET
+fc1dc8bb736717d44d9c0c7c9f3e422dfb970c7217b11e2e4c244e554aeab455
+
+TOKEN ID
+cfc4630a7667d601ec502e26ae5fc06085cb0e2cb7ce075000e4137bd3a83545
+TOKEN SECRET
+42a3d732b8815e8151a6d5b37a28dcf1146e39d1e0ef43c41c2511bde81da8cf
+
+
+curl -X "POST" "https://***YOUR-NS-ACCOUNT-ID***.suitetalk.api.netsuite.com/services/rest/query/v1/suiteql/?limit=3&offset=0" \
+     -H 'Authorization: OAuth oauth_consumer_key="***YOUR-CONSUMER-KEY***", oauth_nonce="***YOUR-NONCE***", oauth_signature="1bb31e23-4e97-40ba-8ef7-1ca20101fdfb", oauth_signature_method="HMAC-SHA1", oauth_timestamp="***YOUR-TIMESTAMP***", oauth_token="***YOUR-TOKEN***", oauth_version="1.0", realm=***YOUR-NS-ACCOUNT-ID***' \
+     -H 'Prefer: transient' \
+     -H 'Content-Type: text/plain; charset=utf-8' \
+     -H 'Cookie: NS_ROUTING_VERSION=LAGGING' \
+     -d $'{
+"q": "SELECT Item.id, Item.itemid, Item.purchasedescription, Item.quantityonhand, Item.reorderpoint, ( Item.reorderpoint - Item.quantityonhand ) AS quantitytoorder, Item.cost, Item.leadtime, ItemVendor.vendor, Vendor.companyName AS VendorName FROM Item INNER JOIN ItemVendor ON ( ( ItemVendor.item = Item.id ) AND ( ItemVendor.preferredvendor = '"'"'T'"'"' ) ) INNER JOIN Vendor ON ( Vendor.id = ItemVendor.vendor ) WHERE ( reorderpoint > 0 ) AND ( quantityonhand <= reorderpoint ) ORDER BY Vendor.companyName ASC, Item.itemid ASC"
+}'
+
+CONSUMER KEY / CLIENT ID
+5fac7fa52d67adc6f840800052c1370b147f7fd116ca3dc316749ba847694937
+CONSUMER SECRET / CLIENT SECRET
+d8d61e337d3cf9ad1c3a6ab1e3a68ebcb8e5e4c3a56c855b6899a6e4d98c1878
+
+
+CONSUMER KEY / CLIENT ID
+8807307eb916f85875e9b57fa5d474ad48f1758b16cb3fa222d0dfb7ec1be2ce
+CONSUMER SECRET / CLIENT SECRET
+8abc2afb326beaed96cf09db0fcbf36aef50c724b560106ec8f31b6557bdad37
+
+
+TOKEN ID
+a1d4c0b34aff2e7455bd8c2c8e5daf39416e355de5f31e5596bc23351ea5b3da
+TOKEN SECRET
+fc87fe882502ed38500774fc5276439bda5b3b8519863c49b2c12811505a0b25
+
+
+var htmldb_delete_message='"DELETE_CONFIRM_MSG"';
+\
+
+
+TOKEN ID
+29cdfd6113abd21acf7fe8788234a16aadb04b026686b9d983eca4340f69c96c
+TOKEN SECRET
+e3647d6fe200f016fedd39fead8c18a8665a7f3e0e9717d0679299030fb4d3a3
+
+CONSUMER KEY / CLIENT ID
+616c42f3e890df18537f6fb247e57f08a322e8325567652f867ea5dfd65e942c
+CONSUMER SECRET / CLIENT SECRET
+67c37a1f8e2f0b84ce185b26eccdff9f7ba3c4062fb1fbdd27104cb812d70b6d

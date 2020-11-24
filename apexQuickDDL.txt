@@ -1,0 +1,54 @@
+Opps 
+    SFID vc20
+    Opportunity Name vc255
+    Description vc2000
+    Company Name vc160
+    Customer id vc25
+    Customer name vc160
+    Customer email 
+    Customer phone 
+    Connector Needs vc255
+    Oracle Products vc255
+    Opp Value  num
+    Consumption potential vc255
+    Current Stage vc255
+    Next step vc255
+    Reason Lost vc255
+    Closing comment vc255
+    Modified ts
+    Oracle sales rep vc20
+    Oracle engineer vc20
+    Sesame sales rep vc20
+    Sesame Engineer vc20
+    Demo scheduled ts
+    Demo actual ts
+    POC scheduled ts
+    POC actual ts
+
+Sesame Employee 
+    SFID vc20
+    First Name vc80
+    Last Name vc80
+    Full Name c6
+    Email 
+    Phone 
+    Mobile Phone 
+    Title 
+    Modified ts
+
+Oracle Employee 
+    SFID vc20
+    First Name vc80
+    Last Name vc80
+    Full Name vc160
+    Email 
+    Office Phone 
+    Mobile Phone 
+    Reports To vc20
+    Region 
+        region vc80
+    Teir
+        teir vc80 
+    Title vc160
+    Modified ts
+
