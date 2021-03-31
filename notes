@@ -3,7 +3,7 @@ ssh-keygen -b 2048 -t rsa
  cat ~/.ssh/id_rsa.pub
 
 
-
+ssh -i ~/.ssh/id_rsa opc@150.136.221.1 'sudo /usr/libexec/oci-image-cleanup --force && sudo shutdown now'
 
 
 TOKEN ID
@@ -62,3 +62,24 @@ CONSUMER KEY / CLIENT ID
 616c42f3e890df18537f6fb247e57f08a322e8325567652f867ea5dfd65e942c
 CONSUMER SECRET / CLIENT SECRET
 67c37a1f8e2f0b84ce185b26eccdff9f7ba3c4062fb1fbdd27104cb812d70b6d
+
+
+https://ucf3-zwfp-fa-ext.oracledemos.com/main.html#!/main
+Dfi48634
+
+
+
+Eloqua =https://login.eloqua.com/?CheckFrame=false
+companyName= OracleSESandbox011
+username= scott.campbell
+passwor= dynamicPint=1
+
+
+
+
+windows test system
+user: opc
+password: C8gqU3!q5umt
+
+
+[16 -22 -18 51 85 -87 -46 -64 -46 -55 -80 -17 -95 59 126 -11 117 -123 41 -74 46 19 -30 -96 114 -93 120 -41 -94 122 101 -47 83 63 52 86 -102 -81 -27 33 71 -19 71 -56 -100 64 124 -102 41 -84 -112 -7 -50 -26 71 62 27 -47 -38 13 -7 -95 -20 -17]

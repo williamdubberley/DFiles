@@ -1,0 +1,11 @@
+lm creds
+url: https://lmi.sesamesoftware.com:8443/rj
+username: LicenseManager
+password: Sesame1234
+
+database creds
+username: LICENSEMANAGER
+Schema: LICENSEMANAGER
+password: SeSameM3rl9n##
+port: 1521
+serviceName: sesame_phx1ff.sub12191655170.main.oraclevcn.com

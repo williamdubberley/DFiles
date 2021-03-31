@@ -1,0 +1,11 @@
+this one looks like the Quoting mechinism is off a bit
+RJWarehouse.ADB-DF58_AUTO_SE7.2021-03-24-035914 line# 1267
+java.sql.SQLSyntaxErrorException: ORA-00904: "ID,PREDECESSOR_ID": invalid identifier
+
+
+I think theses are too many connections I am seeing connections left open again in the normalruns as well.
+RJWarehouse.ADB-QEDI_T2_ASP_TEST.2021-03-24-035950 line# 2498718
+java.lang.Exception: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (IO Error: Got minus one from a read call)
+
+RJWarehouse.ADB-QSTG_ALLSTATE.2021-03-24-035956
+java.lang.Exception: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (IO Error: Got minus one from a read call)

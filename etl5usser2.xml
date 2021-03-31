@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <userName>wdubberley</userName>
+    <email>william.dubberley@sesamesoftware.com</email>
+    <role>ADMIN_ROLE</role>
+    <accountId>1000</accountId>
+    <password>d7b972a456f68219a4dd4b944002a432</password>
+    <token />
+    <lastPass />
+    <lastLogin>1615998852978</lastLogin>
+  </user>
+  <user>
+    <userName>chawkes</userName>
+    <email>chawkes@bob.com</email>
+    <role>ADMIN_ROLE</role>
+    <accountId>1000</accountId>
+    <password>d7b972a456f68219a4dd4b944002a432</password>
+    <token />
+    <lastPass />
+  </user>
+</users>

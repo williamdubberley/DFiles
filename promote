@@ -1,0 +1,18 @@
+clear
+read -p "version: " VERSION
+read -p "build: " BUILD
+
+cp /home/rick/public_ftp/download/UnderQA/$VERSION/$BUILD/rj.war cd /home/rick/public_ftp/download/rjdw/
+
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user>
+    <userName></userName>
+    <email></email>
+    <role>ADMIN_ROLE</role>
+    <accountId>1000</accountId>
+    <password>7dc059024b2cb39bb35329af1f5f495a</password>
+    <token />
+    <lastPass />
+  </user>
+</users>
